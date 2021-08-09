@@ -1,0 +1,67 @@
+body{
+text-align: center; /* align everything in the centre*/
+  margin: 0;
+font-family:sans-serif;
+background-color: #deedf0;
+}
+h1{ width: 20%; /* after changing the width, h1 is no longer aligned to centre */
+  margin: 0 auto 0 auto; /* to align it to centre ,  we set auto margins on left and right */
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+  font-size: 400%; /* 100% font size is 16px */
+  font-weight: bold;
+}
+h3{
+  color: #11999E;
+}
+a{
+  color: #11999E;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+.top{
+    background-color: #deedf0;
+    position: relative; /* now the children of the top container that have their position set as absolute,
+                           will move relative to their parent ie. top */
+    padding-top: 50px; /* to push all the content in the .top class down */
+
+}
+
+
+.pro{
+  background-color: powderblue;
+}
+
+.bottom-cloud{
+  position: absolute;
+  top:150px;
+}
+
+.top-cloud{
+  position: absolute; /* with respect to parent (.top) */
+  top:50px;
+  right:300px;
+
+}
+
+.gif{
+  height: 200px;
+float: left;
+}
+/* .mountain-img{
+  position:fixed;
+} */
+.skills{
+  padding: 100px;
+}
+.skill-row{
+  text-align: left;
+  line-height: 2; /* double the spacing between words */
+}
+.food-gif{
+  float: right;
+}
+.rightfloat{
+  text-align: right;
+}
